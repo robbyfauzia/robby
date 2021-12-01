@@ -1,12 +1,9 @@
 <?php
 
-$bintang = 5;
-for ($i = $bintang; $i >0; $i--) {
-    for ($a = 1; $a <= $i; $a++) {
+for ($i = 1; $i <= 10; $i++) {
+    for ($j = $i; $j <= 10; $j++) {
         echo "&nbsp";
-    }
-    for ($i1 = $bintang; $i1>=$i; $i1--) {
-        echo "*";
+        echo "$j";
     }
     echo "<br>";
 }

@@ -1,13 +1,14 @@
 <?php
 
-$bintang = 5;
-for ($a = 1; $a <=$bintang; $a++) {
-    for ($b = 1; $b <= $a; $b++) {
-        echo "&nbsp";
+$d = 3;
+$c = 0;
+
+for($a = 1; $a <= 10; $a++){
+    for ($b = 3 + $c; $b <= $d; $b++){
+        echo "$b ";
     }
-    for ($c = $bintang; $c>=$a; $c-=1) {
-        echo "*";
-    }
+    $c += 2;
+    $d += 3;
     echo "<br>";
 }
 

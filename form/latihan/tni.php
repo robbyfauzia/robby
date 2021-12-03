@@ -8,49 +8,14 @@
 </head>
 <body>
     <fieldset>
-        <legend>Persyaratan Masuk TNI/Polri</legend>
+        <legend>Pendaftaran TNI/Polri</legend>
         <form action="proses1.php" method="post">
-            <table>
-                <tr>
-                    <th style="text-align: left">Nama Lengkap</th>
-                    <td>:</td>
-                    <td>
-                        <input type="text" name="nama" size="50"/>
-                    </td>
-                </tr>
-                <tr>
-                    <th style="text-align: left">Jenis Kelamin</th>
-                    <td>:</td>
-                    <td>
-                        <input type="radio" name="jk" value="Laki-Laki"/>Laki-laki
-                        <input type="radio" name="jk" value="Perempuan"/>perempuan
-                    </td>
-                </tr>
-                <tr>
-                    <th style="text-align: left">Tinggi Badan & Berat Badan</th>
-                    <td>:</td>
-                    <td>
-                        <input type="number"
-                        name="tb"
-                        min="100"
-                        max="200"
-                        placeholder="Tinggi Badan"
-                        />
-                        <input type="number"
-                        name="bb"
-                        min="1"
-                        max="200"
-                        placeholder="Berat Badan"
-                        />
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        <button type="submit" name="simpan">Daftar</button>
-                        <button type="reset">Bersihkan Formulir</button>
-                    </th>
-                </tr>
-            </table>
+            <input type="text" name="nama" placeholder="Masukan Nama"><br>
+            <input type="radio" name="jk" value="Perempuan">Perempuan
+            <input type="radio" name="jk" value="Laki-laki">Laki-laki <br>
+            <input type="number" name="tb" placeholder="Masukan Tinggi Badan"><br>
+            <input type="number" name="bb" placeholder="Masukan Berat Badan"><br>
+            <button name="save">simpan</button>
         </form>
     </fieldset>
 </body>

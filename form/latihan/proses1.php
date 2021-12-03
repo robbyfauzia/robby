@@ -1,19 +1,16 @@
 <?php
-
-if (isset($_POST['simpan'])) {
+if (isset($_POST['save'])) {
     $nama = $_POST['nama'];
     $jk = $_POST['jk'];
     $tb = $_POST['tb'];
     $bb = $_POST['bb'];
 
-    if ($jk == "Laki-laki" && $tb > 170 && $bb <90) || ($jk == "Perempuan" && $tb > 165 && $bb <90) {
-            $ket "diterima";
-        }else {
-            $ket "tidak diterima";
-        }
-
-?>
-
+    if (($jk == "Laki-laki" && $tb > 170 && $bb < 90) || ($jk == "Perempuan" && $tb > 165 && $bb < 75)) {
+        $ket = "Diterima";
+    } else {
+        $ket = "Tidak Diterima";
+    }
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,11 +20,11 @@ if (isset($_POST['simpan'])) {
     <title>Document</title>
 </head>
 <body>
-    <center>Persyaratan Masuk TNI/Polri</center>
-    nama : <b><?php echo $nama?></b><br>
-    jenis kelamin : <b><?php echo $jk?></b><br>
-    tinggi badan : <b><?php echo $tb?></b><br>
-    berat badan : <b><?php echo $bb?></b><br>
-    keterangan : <b><?php echo $ket?></b>
+    Nama : <b><?php echo $nama; ?></b> <br>
+    Jenis Kelamin : <b><?php echo $jk; ?></b> <br>
+    Tinggi Badan : <b><?php echo $tb; ?></b> <br>
+    Berat Badan : <b><?php echo $bb; ?></b> <br>
+    Keterangan : <b><?php echo $ket; ?></b>
 </body>
 </html>
+<?php }?>

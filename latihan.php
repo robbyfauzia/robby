@@ -274,15 +274,15 @@
                       <th>Harga</th>
                     </tr>
                     <tr>
-                      <td>Nasi Goreng</td>
+                      <td>Nasi Kucing</td>
                       <td>Rp. 15.000</td>
                     </tr>
                     <tr>
-                      <td>Roti Bakar</td>
+                      <td>Burger</td>
                       <td>Rp. 10.000</td>
                     </tr>
                     <tr>
-                      <td>Spaghetti</td>
+                      <td>mie Goreng Spesial</td>
                       <td>Rp. 13.000</td>
                     </tr>
                     <tr>
@@ -290,15 +290,15 @@
                       <th>Harga</th>
                     </tr>
                     <tr>
-                      <td>Cappucino</td>
+                      <td>Cappucino Cincau</td>
                       <td>Rp. 13.000</td>
                     </tr>
                     <tr>
-                      <td>Jus Alpukat</td>
+                      <td>Coca-Cola</td>
                       <td>Rp. 11.000</td>
                     </tr>
                     <tr>
-                      <td>Lemon Tea</td>
+                      <td>Thai Tea</td>
                       <td>Rp. 12.000</td>
                     </tr>
                     <tr>
@@ -309,12 +309,12 @@
                   <div  class="cafe">
                         <select name="pilih">
                         <option selected>-- Pilih Menu --</option>
-                        <option value="1">Nasi Goreng</option>
-                        <option value="2">Roti Bakar</option>
-                        <option value="3">Spaghetti</option>
-                        <option value="4">Cappucino</option>
-                        <option value="5">Jus Alpukat</option>
-                        <option value="6">Lemon Tea</option>
+                        <option value="1">Nasi Kucing</option>
+                        <option value="2">Burger</option>
+                        <option value="3">Mie Goreng Spesial</option>
+                        <option value="4">Cappucino Cincau</option>
+                        <option value="5">Coca-Cola</option>
+                        <option value="6">Thai Tea</option>
                       </select>
                      <input type="number" name="jumlah" placeholder="Pesan berapa">
                      <input type="number" name="bayar" placeholder="Bayar">
